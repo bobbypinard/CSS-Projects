@@ -2,8 +2,24 @@
   width: 100px;
   height: 100px;
   background-color: #eee;
+  border-radius: 50%;
+  position: relative;
+  margin: 50px;
+  display: inline-block;
 }
 
-.spinner-1 {
+.spinner:after, .spinner:before {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
 
+.spinner-1:after {
+  background-color: pink;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: 4px;
 }
