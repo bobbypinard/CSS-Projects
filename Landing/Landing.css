@@ -86,6 +86,8 @@ body {
 }
 
 @keyframes btnHover {
+
+  // Need to fill in button when hovered over.
   100% {
     background-color: #fff;
   }
