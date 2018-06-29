@@ -67,13 +67,6 @@ body {
   animation-duration: 3s;
   animation-delay: 3s;
   animation-fill-mode: forwards;
-  transition-property: transform;
-  animation-duration: 1s
-}
-
-.btn:hover {
-  animation-name: btnHover;
-  animation-duration: 1s;
 }
 
 @keyframes btn {
@@ -85,9 +78,16 @@ body {
   }
 }
 
-@keyframes btnHover {
+.btn:hover {
+  animation-name: btnHover;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
 
-  // Need to fill in button when hovered over.
+@keyframes btnHover {
+  0% {
+    background-color: none;
+  }
   100% {
     background-color: #fff;
   }
