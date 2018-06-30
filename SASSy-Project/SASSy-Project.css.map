@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,IAAI,CAAC;EACH,gBAAgB,EAHb,IAAI;CAIR",
+    "sources": [
+        "SASSy-Project.scss"
+    ],
+    "names": [],
+    "file": "SASSy-Project.css"
+}
